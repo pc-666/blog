@@ -36,6 +36,7 @@ module.exports = {
           { title: "<script>元素 中async和defer属性的区别", path: "/html/async_and_defer" },
           { title: "HTML语义化", path: "/html/html_semantization" },
           { title: "a标签的默认事件禁用后，如何实现跳转", path: "/html/a_tag_jump" },
+          { title: "网站seo怎么处理", path: "/html/seo" },
         ],
       },
     ],
