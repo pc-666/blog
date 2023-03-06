@@ -33,8 +33,10 @@ module.exports = {
         collapsable: true, // 不折叠
         children: [
           { title: "meta", path: "/html/meta" },
+          { title: "async_and_defer", path: "/html/async_and_defer" },
+          { title: "html_semantization", path: "/html/html_semantization" },
         ],
-      }
+      },
     ],
     subSidebar: 'auto'
   }
