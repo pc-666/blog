@@ -6,6 +6,7 @@ module.exports = {
       lang: 'zh-CN'
     }
   },
+  base: '/fe-interview/',
   theme: 'reco',
   themeConfig: {
     nav: [
