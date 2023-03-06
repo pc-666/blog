@@ -32,9 +32,10 @@ module.exports = {
         path: '/html/meta',
         collapsable: true, // 不折叠
         children: [
-          { title: "meta", path: "/html/meta" },
-          { title: "async_and_defer", path: "/html/async_and_defer" },
-          { title: "html_semantization", path: "/html/html_semantization" },
+          { title: "meta元素有什么", path: "/html/meta" },
+          { title: "<script>元素 中async和defer属性的区别", path: "/html/async_and_defer" },
+          { title: "HTML语义化", path: "/html/html_semantization" },
+          { title: "a标签的默认事件禁用后，如何实现跳转", path: "/html/a_tag_jump" },
         ],
       },
     ],
