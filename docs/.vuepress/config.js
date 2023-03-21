@@ -40,16 +40,6 @@ module.exports = {
         ],
       },
       {
-        title: '手写JS',
-        path: '/handwritejs/ajax',
-        collapsable: true, 
-        children: [
-          { title: "手写ajax", path: "/handwritejs/ajax" },
-          { title: "深浅拷贝", path: "/handwritejs/deep_clone" },
-        ],
-      },
-      
-      {
         title: 'JavaScript',
         path: 'javaScript/equal_and_congruent',
         collapsable: true,
@@ -57,7 +47,17 @@ module.exports = {
           { title: "相等和全等的区别", path: "javaScript/equal_and_congruent" },
 
         ],
-      }
+      },
+      // {
+      //   title: '手写JS',
+      //   path: '/handwritejs/ajax',
+      //   collapsable: true, 
+      //   children: [
+      //     { title: "手写ajax", path: "/handwritejs/ajax" },
+      //     { title: "深浅拷贝", path: "/handwritejs/deep_clone" },
+      //   ],
+      // },     
+
     ],
     subSidebar: 'auto'
   }
