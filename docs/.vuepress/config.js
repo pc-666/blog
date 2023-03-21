@@ -30,7 +30,7 @@ module.exports = {
       {
         title: "HTML",
         path: '/html/meta',
-        collapsable: true, // 不折叠
+        collapsable: false, // 不折叠
         children: [
           { title: "meta元素有什么", path: "/html/meta" },
           { title: "<script>元素 中async和defer属性的区别", path: "/html/async_and_defer" },
@@ -39,6 +39,25 @@ module.exports = {
           { title: "网站seo怎么处理", path: "/html/seo" },
         ],
       },
+      {
+        title: '手写JS',
+        path: '/handwritejs/ajax',
+        collapsable: true, 
+        children: [
+          { title: "手写ajax", path: "/handwritejs/ajax" },
+          { title: "深浅拷贝", path: "/handwritejs/deep_clone" },
+        ],
+      },
+      
+      {
+        title: 'JavaScript',
+        path: 'javaScript/equal_and_congruent',
+        collapsable: true,
+        children: [
+          { title: "相等和全等的区别", path: "javaScript/equal_and_congruent" },
+
+        ],
+      }
     ],
     subSidebar: 'auto'
   }
