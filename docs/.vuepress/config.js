@@ -1,32 +1,73 @@
 module.exports = {
+  theme: 'reco',
   title: '前端面试文档',
   description: '',
   locales: {
     '/': {
       lang: 'zh-CN'
+    },
+    '/en/': {
+      lang: 'en-US'
     }
   },
   base: '/fe-interview/',
-  theme: 'reco',
+  head: [
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+  ],
+  plugins: {
+    '@vuepress/medium-zoom': {
+      selector: 'img.zoom-custom-imgs',
+      options: {
+        margin: 16
+      }
+    },
+    '@vuepress/plugin-nprogress': true,
+    // '@vuepress-reco/vuepress-plugin-bgm-player': {
+    //   audios: [
+    //     // 本地文件示例
+    //     {
+    //       name: '送别',
+    //       artist: '朴树',
+    //       url: '/bgm/url/送别.mp3',
+
+    //     },
+    //   ],
+    //   poition:{ 
+    //     left: '10px',
+    //     bottom: '10px',
+    //     'z-index': '999999'
+    //   },
+    // },
+    '@vuepress-reco/vuepress-plugin-screenfull': {},
+    '@vuepress-reco/vuepress-plugin-extract-code': {},
+    'vuepress-plugin-flowchart': {},
+  },
   themeConfig: {
+    author: 'oliver-xie666',
+    type: 'blog',
+    blogConfig: {
+      category: {
+        location: 2,     // 在导航栏菜单中所占的位置，默认2
+        text: 'Category' // 默认文案 “分类”
+      },
+      tag: {
+        location: 3,     // 在导航栏菜单中所占的位置，默认3
+        text: 'Tag'      // 默认文案 “标签”
+      },
+    },
     nav: [
-        { text: '首页', link: '/' },
-        { 
-            text: 'oliver的 JavaScript 博客', 
-            items: [
-                { text: 'Github', link: 'https://github.com/oliver-xie666' },
-            ]
-        }
+
+      { text: '首页', link: '/', icon: 'reco-home' },
+      { text: '标签', link: '/tag/', icon: 'reco-tag' },
+      { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
+      {
+        text: 'oliver的 JavaScript 博客',
+        items: [
+          { text: 'Github', link: 'https://github.com/oliver-xie666', icon: 'reco-github' },
+        ]
+      }
     ],
     sidebar: [
-      {
-          title: '欢迎学习',
-          path: '/',
-          collapsable: false, // 不折叠
-          children: [
-              { title: "学前必读", path: "/" }
-          ]
-      },
       {
         title: "HTML",
         path: '/html/meta',
@@ -41,7 +82,7 @@ module.exports = {
       },
       {
         title: 'JavaScript',
-        path: 'javaScript/equal_and_congruent',
+        path: '/javaScript/equal_and_congruent',
         collapsable: true,
         children: [
           { title: "相等和全等的区别", path: "javaScript/equal_and_congruent" },

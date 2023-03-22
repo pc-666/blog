@@ -1,0 +1,1 @@
+export { default } from "C:\\Users\\15388\\Desktop\\blog\\fe-interview\\node_modules\\@vuepress-reco\\vuepress-plugin-screenfull\\bin\\enhanceAppFile.js"
