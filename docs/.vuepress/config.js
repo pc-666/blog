@@ -86,7 +86,7 @@ module.exports = {
         collapsable: true,
         children: [
           { title: "相等和全等的区别", path: "javaScript/equal_and_congruent" },
-
+          { title: "AJAX的原理及实现", path: "javaScript/ajax" },
         ],
       },
       // {

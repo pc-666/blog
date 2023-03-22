@@ -16,18 +16,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "actionText": "快速上手 →",
-        "actionLink": "/zh/guide/"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-a35b7fcc",
-      "path": "/"
-    },
-    {
       "title": "手写AJAX",
       "frontmatter": {
         "title": "手写AJAX",
@@ -38,6 +26,18 @@ export const siteData = {
       "relativePath": "handwritejs/ajax.md",
       "key": "v-f5feeb98",
       "path": "/handwritejs/ajax.html"
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "actionText": "快速上手 →",
+        "actionLink": "/zh/guide/"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-a35b7fcc",
+      "path": "/"
     },
     {
       "title": "深浅拷贝",
@@ -67,6 +67,30 @@ export const siteData = {
           "level": 2,
           "title": "a标签的默认事件禁用后，如何实现跳转？",
           "slug": "a标签的默认事件禁用后-如何实现跳转"
+        }
+      ]
+    },
+    {
+      "title": "meta元素都有什么",
+      "frontmatter": {
+        "title": "meta元素都有什么",
+        "author": "oliver",
+        "date": "2023-2-28"
+      },
+      "regularPath": "/html/meta.html",
+      "relativePath": "html/meta.md",
+      "key": "v-032805e4",
+      "path": "/html/meta.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "<meta>：元数据元素",
+          "slug": "meta-元数据元素"
+        },
+        {
+          "level": 3,
+          "title": "meta元素表示那些不能由其它HTML元相关元素标识的元数据信息，不会显示在页面上，但对于搜索引擎是可读的",
+          "slug": "meta元素表示那些不能由其它html元相关元素标识的元数据信息-不会显示在页面上-但对于搜索引擎是可读的"
         }
       ]
     },
@@ -114,68 +138,34 @@ export const siteData = {
       ]
     },
     {
-      "title": "meta元素都有什么",
+      "title": "ajax原理是什么？如何实现？",
       "frontmatter": {
-        "title": "meta元素都有什么",
+        "title": "ajax原理是什么？如何实现？",
         "author": "oliver",
-        "date": "2023-2-28"
-      },
-      "regularPath": "/html/meta.html",
-      "relativePath": "html/meta.md",
-      "key": "v-032805e4",
-      "path": "/html/meta.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "<meta>：元数据元素",
-          "slug": "meta-元数据元素"
-        },
-        {
-          "level": 3,
-          "title": "meta元素表示那些不能由其它HTML元相关元素标识的元数据信息，不会显示在页面上，但对于搜索引擎是可读的",
-          "slug": "meta元素表示那些不能由其它html元相关元素标识的元数据信息-不会显示在页面上-但对于搜索引擎是可读的"
-        }
-      ]
-    },
-    {
-      "title": "== 和 ===区别，分别在什么情况使用",
-      "frontmatter": {
-        "title": "== 和 ===区别，分别在什么情况使用",
-        "author": "oliver",
-        "date": "2023-03-21",
+        "date": "2023-03-22",
         "tags": [
           "js"
         ]
       },
-      "regularPath": "/javaScript/equal_and_congruent.html",
-      "relativePath": "javaScript/equal_and_congruent.md",
-      "key": "v-5b3ce4be",
-      "path": "/javaScript/equal_and_congruent.html",
+      "regularPath": "/javaScript/ajax.html",
+      "relativePath": "javaScript/ajax.md",
+      "key": "v-4af3b0ae",
+      "path": "/javaScript/ajax.html",
       "headers": [
         {
           "level": 2,
-          "title": "等于操作符(值相等)",
-          "slug": "等于操作符-值相等"
-        },
-        {
-          "level": 3,
-          "title": "强制类型转换",
-          "slug": "强制类型转换"
-        },
-        {
-          "level": 3,
-          "title": "隐式转换相等比较",
-          "slug": "隐式转换相等比较"
+          "title": "AJAX是什么",
+          "slug": "ajax是什么"
         },
         {
           "level": 2,
-          "title": "全等操作符(类型相等，值也相等)",
-          "slug": "全等操作符-类型相等-值也相等"
+          "title": "实现过程",
+          "slug": "实现过程"
         },
         {
           "level": 2,
-          "title": "总结",
-          "slug": "总结"
+          "title": "手写",
+          "slug": "手写"
         }
       ]
     },
@@ -200,6 +190,48 @@ export const siteData = {
           "level": 3,
           "title": "SPA单页面应用SEO解决",
           "slug": "spa单页面应用seo解决"
+        }
+      ]
+    },
+    {
+      "title": "== 和 ===区别，分别在什么情况使用",
+      "frontmatter": {
+        "title": "== 和 ===区别，分别在什么情况使用",
+        "author": "oliver",
+        "date": "2023-03-21",
+        "tags": [
+          "js"
+        ]
+      },
+      "regularPath": "/javaScript/equal_and_congruent.html",
+      "relativePath": "javaScript/equal_and_congruent.md",
+      "key": "v-5b3ce4be",
+      "path": "/javaScript/equal_and_congruent.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "相等操作符(值相等)",
+          "slug": "相等操作符-值相等"
+        },
+        {
+          "level": 3,
+          "title": "强制类型转换",
+          "slug": "强制类型转换"
+        },
+        {
+          "level": 3,
+          "title": "隐式转换相等比较",
+          "slug": "隐式转换相等比较"
+        },
+        {
+          "level": 2,
+          "title": "全等操作符(类型相等，值也相等)",
+          "slug": "全等操作符-类型相等-值也相等"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
         }
       ]
     },
@@ -316,6 +348,10 @@ export const siteData = {
           {
             "title": "相等和全等的区别",
             "path": "javaScript/equal_and_congruent"
+          },
+          {
+            "title": "AJAX的原理及实现",
+            "path": "javaScript/ajax"
           }
         ]
       }

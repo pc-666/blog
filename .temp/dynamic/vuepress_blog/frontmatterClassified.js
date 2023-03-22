@@ -8,6 +8,7 @@ export default {
       "scope": "tags",
       "path": "/tag/js/",
       "pageKeys": [
+        "v-4af3b0ae",
         "v-5b3ce4be"
       ]
     }

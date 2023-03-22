@@ -9,6 +9,14 @@ import GlobalLayout from "C:\\Users\\15388\\Desktop\\blog\\fe-interview\\node_mo
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-f5feeb98",
+    path: "/handwritejs/ajax.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-f5feeb98").then(next)
+    },
+  },
+  {
     name: "v-a35b7fcc",
     path: "/",
     component: GlobalLayout,
@@ -19,14 +27,6 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
-  },
-  {
-    name: "v-f5feeb98",
-    path: "/handwritejs/ajax.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f5feeb98").then(next)
-    },
   },
   {
     name: "v-94c59b40",
@@ -42,6 +42,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-0c586464").then(next)
+    },
+  },
+  {
+    name: "v-032805e4",
+    path: "/html/meta.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-032805e4").then(next)
     },
   },
   {
@@ -61,19 +69,11 @@ export const routes = [
     },
   },
   {
-    name: "v-032805e4",
-    path: "/html/meta.html",
+    name: "v-4af3b0ae",
+    path: "/javaScript/ajax.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-032805e4").then(next)
-    },
-  },
-  {
-    name: "v-5b3ce4be",
-    path: "/javaScript/equal_and_congruent.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5b3ce4be").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-4af3b0ae").then(next)
     },
   },
   {
@@ -82,6 +82,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-050d3be8").then(next)
+    },
+  },
+  {
+    name: "v-5b3ce4be",
+    path: "/javaScript/equal_and_congruent.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5b3ce4be").then(next)
     },
   },
   {
