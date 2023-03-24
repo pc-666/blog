@@ -83,3 +83,8 @@ function ajax(options) {
 }
 
 ```
+
+参考链接:
+
+- [Ajax基础和手写封装Ajax函数](https://juejin.cn/post/6938290463669485581)
+- [ajax原理](https://www.developers.pub/wiki/1065322/1067403)

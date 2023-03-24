@@ -10,7 +10,7 @@ export default [{
   id: "js",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tag/js/","interval":[0,2]}],
+  pages: [{"path":"/tag/js/","interval":[0,3]}],
   prevText: "Prev",
   nextText: "Next",
 }]

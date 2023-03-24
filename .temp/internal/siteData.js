@@ -28,18 +28,6 @@ export const siteData = {
       "path": "/handwritejs/ajax.html"
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "actionText": "快速上手 →",
-        "actionLink": "/zh/guide/"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-a35b7fcc",
-      "path": "/"
-    },
-    {
       "title": "深浅拷贝",
       "frontmatter": {
         "title": "深浅拷贝",
@@ -50,49 +38,6 @@ export const siteData = {
       "relativePath": "handwritejs/deep_clone.md",
       "key": "v-94c59b40",
       "path": "/handwritejs/deep_clone.html"
-    },
-    {
-      "title": "a标签的默认事件禁用后，如何实现跳转？",
-      "frontmatter": {
-        "title": "a标签的默认事件禁用后，如何实现跳转？",
-        "author": "oliver",
-        "date": "2023-03-06"
-      },
-      "regularPath": "/html/a_tag_jump.html",
-      "relativePath": "html/a_tag_jump.md",
-      "key": "v-0c586464",
-      "path": "/html/a_tag_jump.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "a标签的默认事件禁用后，如何实现跳转？",
-          "slug": "a标签的默认事件禁用后-如何实现跳转"
-        }
-      ]
-    },
-    {
-      "title": "meta元素都有什么",
-      "frontmatter": {
-        "title": "meta元素都有什么",
-        "author": "oliver",
-        "date": "2023-2-28"
-      },
-      "regularPath": "/html/meta.html",
-      "relativePath": "html/meta.md",
-      "key": "v-032805e4",
-      "path": "/html/meta.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "<meta>：元数据元素",
-          "slug": "meta-元数据元素"
-        },
-        {
-          "level": 3,
-          "title": "meta元素表示那些不能由其它HTML元相关元素标识的元数据信息，不会显示在页面上，但对于搜索引擎是可读的",
-          "slug": "meta元素表示那些不能由其它html元相关元素标识的元数据信息-不会显示在页面上-但对于搜索引擎是可读的"
-        }
-      ]
     },
     {
       "title": "script中async跟defer有什么区别",
@@ -114,28 +59,35 @@ export const siteData = {
       ]
     },
     {
-      "title": "HTML语义化",
+      "title": "a标签的默认事件禁用后，如何实现跳转？",
       "frontmatter": {
-        "title": "HTML语义化",
+        "title": "a标签的默认事件禁用后，如何实现跳转？",
         "author": "oliver",
         "date": "2023-03-06"
       },
-      "regularPath": "/html/html_semantization.html",
-      "relativePath": "html/html_semantization.md",
-      "key": "v-7b4348ae",
-      "path": "/html/html_semantization.html",
+      "regularPath": "/html/a_tag_jump.html",
+      "relativePath": "html/a_tag_jump.md",
+      "key": "v-0c586464",
+      "path": "/html/a_tag_jump.html",
       "headers": [
         {
           "level": 2,
-          "title": "什么是HTML语义化",
-          "slug": "什么是html语义化"
-        },
-        {
-          "level": 2,
-          "title": "为什么要关注语义化",
-          "slug": "为什么要关注语义化"
+          "title": "a标签的默认事件禁用后，如何实现跳转？",
+          "slug": "a标签的默认事件禁用后-如何实现跳转"
         }
       ]
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "actionText": "快速上手 →",
+        "actionLink": "/zh/guide/"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-a35b7fcc",
+      "path": "/"
     },
     {
       "title": "ajax原理是什么？如何实现？",
@@ -170,6 +122,54 @@ export const siteData = {
       ]
     },
     {
+      "title": "HTML语义化",
+      "frontmatter": {
+        "title": "HTML语义化",
+        "author": "oliver",
+        "date": "2023-03-06"
+      },
+      "regularPath": "/html/html_semantization.html",
+      "relativePath": "html/html_semantization.md",
+      "key": "v-7b4348ae",
+      "path": "/html/html_semantization.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "什么是HTML语义化",
+          "slug": "什么是html语义化"
+        },
+        {
+          "level": 2,
+          "title": "为什么要关注语义化",
+          "slug": "为什么要关注语义化"
+        }
+      ]
+    },
+    {
+      "title": "meta元素都有什么",
+      "frontmatter": {
+        "title": "meta元素都有什么",
+        "author": "oliver",
+        "date": "2023-2-28"
+      },
+      "regularPath": "/html/meta.html",
+      "relativePath": "html/meta.md",
+      "key": "v-032805e4",
+      "path": "/html/meta.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "<meta>：元数据元素",
+          "slug": "meta-元数据元素"
+        },
+        {
+          "level": 3,
+          "title": "meta元素表示那些不能由其它HTML元相关元素标识的元数据信息，不会显示在页面上，但对于搜索引擎是可读的",
+          "slug": "meta元素表示那些不能由其它html元相关元素标识的元数据信息-不会显示在页面上-但对于搜索引擎是可读的"
+        }
+      ]
+    },
+    {
       "title": "网站SEO怎么处理",
       "frontmatter": {
         "title": "网站SEO怎么处理",
@@ -190,6 +190,68 @@ export const siteData = {
           "level": 3,
           "title": "SPA单页面应用SEO解决",
           "slug": "spa单页面应用seo解决"
+        }
+      ]
+    },
+    {
+      "title": "数组操作",
+      "frontmatter": {
+        "title": "数组操作",
+        "author": "oliver",
+        "date": "2023-03-22",
+        "tags": [
+          "js"
+        ]
+      },
+      "regularPath": "/javaScript/array_cof.html",
+      "relativePath": "javaScript/array_cof.md",
+      "key": "v-0c208636",
+      "path": "/javaScript/array_cof.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "数组方法",
+          "slug": "数组方法"
+        },
+        {
+          "level": 3,
+          "title": "操作方法",
+          "slug": "操作方法"
+        },
+        {
+          "level": 3,
+          "title": "排序方法",
+          "slug": "排序方法"
+        },
+        {
+          "level": 3,
+          "title": "转换方法",
+          "slug": "转换方法"
+        },
+        {
+          "level": 3,
+          "title": "迭代方法",
+          "slug": "迭代方法"
+        },
+        {
+          "level": 2,
+          "title": "数组去重",
+          "slug": "数组去重"
+        },
+        {
+          "level": 3,
+          "title": "值类型数组",
+          "slug": "值类型数组"
+        },
+        {
+          "level": 3,
+          "title": "对象数组",
+          "slug": "对象数组"
+        },
+        {
+          "level": 2,
+          "title": "数组扁平化",
+          "slug": "数组扁平化"
         }
       ]
     },
@@ -352,6 +414,10 @@ export const siteData = {
           {
             "title": "AJAX的原理及实现",
             "path": "javaScript/ajax"
+          },
+          {
+            "title": "数组操作",
+            "path": "javaScript/array_cof"
           }
         ]
       }

@@ -9,6 +9,7 @@ export default {
       "path": "/tag/js/",
       "pageKeys": [
         "v-4af3b0ae",
+        "v-0c208636",
         "v-5b3ce4be"
       ]
     }
