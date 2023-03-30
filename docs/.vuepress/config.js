@@ -90,6 +90,14 @@ module.exports = {
           { title: "数组操作", path: "javaScript/array_cof" },
         ],
       },
+      {
+        title: 'Vue系列',
+        path: '/vue/vue_understand',
+        collapsable: true,
+        children: [
+          { title: "Vue的理解", path: "/vue/vue_understand"},
+        ]
+      }
       // {
       //   title: '手写JS',
       //   path: '/handwritejs/ajax',
