@@ -4,7 +4,7 @@
 export const siteData = {
   "title": "前端面试文档",
   "description": "",
-  "base": "/fe-interview/",
+  "base": "/blog/",
   "headTags": [
     [
       "meta",
@@ -16,47 +16,16 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "手写AJAX",
+      "title": "Home",
       "frontmatter": {
-        "title": "手写AJAX",
-        "author": "oliver",
-        "date": "2023-03-21"
+        "home": true,
+        "actionText": "快速上手 →",
+        "actionLink": "/zh/guide/"
       },
-      "regularPath": "/handwritejs/ajax.html",
-      "relativePath": "handwritejs/ajax.md",
-      "key": "v-f5feeb98",
-      "path": "/handwritejs/ajax.html"
-    },
-    {
-      "title": "深浅拷贝",
-      "frontmatter": {
-        "title": "深浅拷贝",
-        "author": "oliver",
-        "date": "2023-03-21"
-      },
-      "regularPath": "/handwritejs/deep_clone.html",
-      "relativePath": "handwritejs/deep_clone.md",
-      "key": "v-94c59b40",
-      "path": "/handwritejs/deep_clone.html"
-    },
-    {
-      "title": "script中async跟defer有什么区别",
-      "frontmatter": {
-        "title": "script中async跟defer有什么区别",
-        "author": "oliver",
-        "date": "2023-3-06"
-      },
-      "regularPath": "/html/async_and_defer.html",
-      "relativePath": "html/async_and_defer.md",
-      "key": "v-255d5c94",
-      "path": "/html/async_and_defer.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "<script>元素 中async和defer属性的区别",
-          "slug": "script-元素-中async和defer属性的区别"
-        }
-      ]
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-f578ac54",
+      "path": "/"
     },
     {
       "title": "a标签的默认事件禁用后，如何实现跳转？",
@@ -67,57 +36,13 @@ export const siteData = {
       },
       "regularPath": "/html/a_tag_jump.html",
       "relativePath": "html/a_tag_jump.md",
-      "key": "v-0c586464",
+      "key": "v-7495e4dc",
       "path": "/html/a_tag_jump.html",
       "headers": [
         {
           "level": 2,
           "title": "a标签的默认事件禁用后，如何实现跳转？",
           "slug": "a标签的默认事件禁用后-如何实现跳转"
-        }
-      ]
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "actionText": "快速上手 →",
-        "actionLink": "/zh/guide/"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-a35b7fcc",
-      "path": "/"
-    },
-    {
-      "title": "ajax原理是什么？如何实现？",
-      "frontmatter": {
-        "title": "ajax原理是什么？如何实现？",
-        "author": "oliver",
-        "date": "2023-03-22",
-        "tags": [
-          "js"
-        ]
-      },
-      "regularPath": "/javaScript/ajax.html",
-      "relativePath": "javaScript/ajax.md",
-      "key": "v-4af3b0ae",
-      "path": "/javaScript/ajax.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "AJAX是什么",
-          "slug": "ajax是什么"
-        },
-        {
-          "level": 2,
-          "title": "实现过程",
-          "slug": "实现过程"
-        },
-        {
-          "level": 2,
-          "title": "手写",
-          "slug": "手写"
         }
       ]
     },
@@ -130,7 +55,7 @@ export const siteData = {
       },
       "regularPath": "/html/html_semantization.html",
       "relativePath": "html/html_semantization.md",
-      "key": "v-7b4348ae",
+      "key": "v-1656ff1c",
       "path": "/html/html_semantization.html",
       "headers": [
         {
@@ -146,6 +71,30 @@ export const siteData = {
       ]
     },
     {
+      "title": "手写AJAX",
+      "frontmatter": {
+        "title": "手写AJAX",
+        "author": "oliver",
+        "date": "2023-03-21"
+      },
+      "regularPath": "/handwritejs/ajax.html",
+      "relativePath": "handwritejs/ajax.md",
+      "key": "v-44de2e10",
+      "path": "/handwritejs/ajax.html"
+    },
+    {
+      "title": "深浅拷贝",
+      "frontmatter": {
+        "title": "深浅拷贝",
+        "author": "oliver",
+        "date": "2023-03-21"
+      },
+      "regularPath": "/handwritejs/deep_clone.html",
+      "relativePath": "handwritejs/deep_clone.md",
+      "key": "v-6ee18b24",
+      "path": "/handwritejs/deep_clone.html"
+    },
+    {
       "title": "meta元素都有什么",
       "frontmatter": {
         "title": "meta元素都有什么",
@@ -154,7 +103,7 @@ export const siteData = {
       },
       "regularPath": "/html/meta.html",
       "relativePath": "html/meta.md",
-      "key": "v-032805e4",
+      "key": "v-0f087a5c",
       "path": "/html/meta.html",
       "headers": [
         {
@@ -178,7 +127,7 @@ export const siteData = {
       },
       "regularPath": "/html/seo.html",
       "relativePath": "html/seo.md",
-      "key": "v-050d3be8",
+      "key": "v-6dc8baa8",
       "path": "/html/seo.html",
       "headers": [
         {
@@ -194,6 +143,152 @@ export const siteData = {
       ]
     },
     {
+      "title": "script中async跟defer有什么区别",
+      "frontmatter": {
+        "title": "script中async跟defer有什么区别",
+        "author": "oliver",
+        "date": "2023-3-06"
+      },
+      "regularPath": "/html/async_and_defer.html",
+      "relativePath": "html/async_and_defer.md",
+      "key": "v-d9d69150",
+      "path": "/html/async_and_defer.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "<script>元素 中async和defer属性的区别",
+          "slug": "script-元素-中async和defer属性的区别"
+        }
+      ]
+    },
+    {
+      "title": "说说你对vue的理解",
+      "frontmatter": {
+        "title": "说说你对vue的理解",
+        "author": "oliver",
+        "date": "2023-03-30",
+        "tags": [
+          "js",
+          "vue"
+        ]
+      },
+      "regularPath": "/vue/vue_understand.html",
+      "relativePath": "vue/vue_understand.md",
+      "key": "v-d40477b8",
+      "path": "/vue/vue_understand.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一 vue是什么",
+          "slug": "一-vue是什么"
+        },
+        {
+          "level": 2,
+          "title": "二 vue核心特性",
+          "slug": "二-vue核心特性"
+        },
+        {
+          "level": 3,
+          "title": "数据驱动（MVVM)",
+          "slug": "数据驱动-mvvm"
+        },
+        {
+          "level": 3,
+          "title": "组件化",
+          "slug": "组件化"
+        },
+        {
+          "level": 3,
+          "title": "指令",
+          "slug": "指令"
+        },
+        {
+          "level": 2,
+          "title": "三 与传统开发的区别",
+          "slug": "三-与传统开发的区别"
+        },
+        {
+          "level": 2,
+          "title": "四 Vue和React对比",
+          "slug": "四-vue和react对比"
+        }
+      ]
+    },
+    {
+      "title": "ajax原理是什么？如何实现？",
+      "frontmatter": {
+        "title": "ajax原理是什么？如何实现？",
+        "author": "oliver",
+        "date": "2023-03-22",
+        "tags": [
+          "js"
+        ]
+      },
+      "regularPath": "/javaScript/ajax.html",
+      "relativePath": "javaScript/ajax.md",
+      "key": "v-16d4f072",
+      "path": "/javaScript/ajax.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "AJAX是什么",
+          "slug": "ajax是什么"
+        },
+        {
+          "level": 2,
+          "title": "实现过程",
+          "slug": "实现过程"
+        },
+        {
+          "level": 2,
+          "title": "手写",
+          "slug": "手写"
+        }
+      ]
+    },
+    {
+      "title": "== 和 ===区别，分别在什么情况使用",
+      "frontmatter": {
+        "title": "== 和 ===区别，分别在什么情况使用",
+        "author": "oliver",
+        "date": "2023-03-21",
+        "tags": [
+          "js"
+        ]
+      },
+      "regularPath": "/javaScript/equal_and_congruent.html",
+      "relativePath": "javaScript/equal_and_congruent.md",
+      "key": "v-32df3582",
+      "path": "/javaScript/equal_and_congruent.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "相等操作符(值相等)",
+          "slug": "相等操作符-值相等"
+        },
+        {
+          "level": 3,
+          "title": "强制类型转换",
+          "slug": "强制类型转换"
+        },
+        {
+          "level": 3,
+          "title": "隐式转换相等比较",
+          "slug": "隐式转换相等比较"
+        },
+        {
+          "level": 2,
+          "title": "全等操作符(类型相等，值也相等)",
+          "slug": "全等操作符-类型相等-值也相等"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
+        }
+      ]
+    },
+    {
       "title": "数组操作",
       "frontmatter": {
         "title": "数组操作",
@@ -205,7 +300,7 @@ export const siteData = {
       },
       "regularPath": "/javaScript/array_cof.html",
       "relativePath": "javaScript/array_cof.md",
-      "key": "v-0c208636",
+      "key": "v-79d7e0fa",
       "path": "/javaScript/array_cof.html",
       "headers": [
         {
@@ -256,48 +351,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "== 和 ===区别，分别在什么情况使用",
-      "frontmatter": {
-        "title": "== 和 ===区别，分别在什么情况使用",
-        "author": "oliver",
-        "date": "2023-03-21",
-        "tags": [
-          "js"
-        ]
-      },
-      "regularPath": "/javaScript/equal_and_congruent.html",
-      "relativePath": "javaScript/equal_and_congruent.md",
-      "key": "v-5b3ce4be",
-      "path": "/javaScript/equal_and_congruent.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "相等操作符(值相等)",
-          "slug": "相等操作符-值相等"
-        },
-        {
-          "level": 3,
-          "title": "强制类型转换",
-          "slug": "强制类型转换"
-        },
-        {
-          "level": 3,
-          "title": "隐式转换相等比较",
-          "slug": "隐式转换相等比较"
-        },
-        {
-          "level": 2,
-          "title": "全等操作符(类型相等，值也相等)",
-          "slug": "全等操作符-类型相等-值也相等"
-        },
-        {
-          "level": 2,
-          "title": "总结",
-          "slug": "总结"
-        }
-      ]
-    },
-    {
       "frontmatter": {
         "layout": "Tags",
         "title": "Tags"
@@ -332,6 +385,15 @@ export const siteData = {
       "regularPath": "/tag/js/",
       "key": "v-e8d86dc8",
       "path": "/tag/js/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "vue Tags"
+      },
+      "regularPath": "/tag/vue/",
+      "key": "v-322a45da",
+      "path": "/tag/vue/"
     }
   ],
   "themeConfig": {
@@ -418,6 +480,17 @@ export const siteData = {
           {
             "title": "数组操作",
             "path": "javaScript/array_cof"
+          }
+        ]
+      },
+      {
+        "title": "Vue系列",
+        "path": "/vue/vue_understand",
+        "collapsable": true,
+        "children": [
+          {
+            "title": "Vue的理解",
+            "path": "/vue/vue_understand"
           }
         ]
       }

@@ -8,9 +8,18 @@ export default {
       "scope": "tags",
       "path": "/tag/js/",
       "pageKeys": [
-        "v-4af3b0ae",
-        "v-0c208636",
-        "v-5b3ce4be"
+        "v-d40477b8",
+        "v-16d4f072",
+        "v-32df3582",
+        "v-79d7e0fa"
+      ]
+    },
+    "vue": {
+      "key": "vue",
+      "scope": "tags",
+      "path": "/tag/vue/",
+      "pageKeys": [
+        "v-d40477b8"
       ]
     }
   },

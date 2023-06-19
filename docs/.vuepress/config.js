@@ -10,7 +10,7 @@ module.exports = {
       lang: 'en-US'
     }
   },
-  base: '/fe-interview/',
+  base: '/blog/',
   head: [
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],

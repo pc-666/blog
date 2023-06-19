@@ -10,7 +10,16 @@ export default [{
   id: "js",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tag/js/","interval":[0,3]}],
+  pages: [{"path":"/tag/js/","interval":[0,4]}],
+  prevText: "Prev",
+  nextText: "Next",
+},
+{
+  pid: "tags",
+  id: "vue",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tag/vue/","interval":[0,1]}],
   prevText: "Prev",
   nextText: "Next",
 }]
